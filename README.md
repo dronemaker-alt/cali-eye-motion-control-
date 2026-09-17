@@ -35,3 +35,13 @@ Candidate Cali-specific additions include CAN or RS-485 networking, home/limit i
 ## Repository strategy
 
 Keep upstream PD-Stepper material identifiable and attributable. Develop Cali-specific hardware/firmware separately so upstream reference material can be compared against the evolving Cali Motion Node design.
+
+
+## Repository layout
+
+- `reference/PD-Stepper/` — complete upstream snapshot, preserved unchanged
+- `hardware/cali-motion-node/` — Cali Motion Node electronics and mechanical integration
+- `firmware/` — Cali-specific node firmware and host interfaces
+- `docs/` — architecture decisions, interface definitions, and test plans
+
+See `reference/PD-Stepper-UPSTREAM.md` for snapshot provenance and update procedure. PD-Stepper is GPL-3.0 licensed; retain its license and attribution in any derivative work.
