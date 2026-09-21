@@ -45,3 +45,9 @@ Keep upstream PD-Stepper material identifiable and attributable. Develop Cali-sp
 - `docs/` — architecture decisions, interface definitions, and test plans
 
 See `reference/PD-Stepper-UPSTREAM.md` for snapshot provenance and update procedure. PD-Stepper is GPL-3.0 licensed; retain its license and attribution in any derivative work.
+
+## Bench implementation package v0
+
+The first controlled implementation uses USB serial and the installed rotary sensor stage. It preserves the PD-Stepper snapshot unchanged while defining the Cali interface, validation boundary, acceptance test and evidence logger.
+
+Start with [docs/bench-implementation-package.md](docs/bench-implementation-package.md).
