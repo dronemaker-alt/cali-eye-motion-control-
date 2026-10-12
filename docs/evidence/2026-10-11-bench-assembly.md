@@ -6,7 +6,7 @@
 
 ## Photographic evidence inventory
 
-The five original photographs are preserved in the conversation archive `Cali-Eye_Bench_Archive_2026-10-11.zip` with a README and SHA256SUMS. The image binaries have **not** yet been committed to this GitHub repository.
+The five original photographs are preserved in the conversation archive `Cali-Eye_Bench_Archive_2026-10-11.zip` with a README and SHA256SUMS. The five unchanged JPG originals are also available in [`2026-10-11-bench-assembly/`](2026-10-11-bench-assembly/), with their original filenames and [SHA256SUMS.txt](2026-10-11-bench-assembly/SHA256SUMS.txt). View them directly below; no archive download is required.
 
 - `1000040176.jpg` — Bench and monitor side view; work surface and storage
 - `1000040175.jpg` — Lenovo rear and swivel mounting arrangement
@@ -27,8 +27,39 @@ On 2026-10-11, the builder confirmed the Lenovo's current position is excellent 
 
 ## Pending
 
-- Add the five unchanged JPG binaries and SHA256SUMS to this evidence folder.
 - Integrate motion controller, microscope/cameras, and wiring.
 - Record the extended SMART test result.
 
 **Provenance:** Observations and original filenames from photographs shared by the builder on 2026-10-11. This record is not a claim that inspection or motion-control commissioning is complete.
+
+## Photo gallery
+
+### Overall bench structure and Lenovo mounting
+
+![Overall bench structure and Lenovo mounting](2026-10-11-bench-assembly/1000040173.jpg)
+
+Original: [1000040173.jpg](2026-10-11-bench-assembly/1000040173.jpg)
+
+### Operator-facing view and work surface
+
+![Operator-facing view and work surface](2026-10-11-bench-assembly/1000040171.jpg)
+
+Original: [1000040171.jpg](2026-10-11-bench-assembly/1000040171.jpg)
+
+### Work surface and powered Lenovo console
+
+![Work surface and powered Lenovo console](2026-10-11-bench-assembly/1000040172.jpg)
+
+Original: [1000040172.jpg](2026-10-11-bench-assembly/1000040172.jpg)
+
+### Lenovo rear and swivel mounting arrangement
+
+![Lenovo rear and swivel mounting arrangement](2026-10-11-bench-assembly/1000040175.jpg)
+
+Original: [1000040175.jpg](2026-10-11-bench-assembly/1000040175.jpg)
+
+### Bench and monitor side view; work surface and storage
+
+![Bench and monitor side view; work surface and storage](2026-10-11-bench-assembly/1000040176.jpg)
+
+Original: [1000040176.jpg](2026-10-11-bench-assembly/1000040176.jpg)

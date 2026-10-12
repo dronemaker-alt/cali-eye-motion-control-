@@ -45,3 +45,11 @@ Keep upstream PD-Stepper material identifiable and attributable. Develop Cali-sp
 - `docs/` — architecture decisions, interface definitions, and test plans
 
 See `reference/PD-Stepper-UPSTREAM.md` for snapshot provenance and update procedure. PD-Stepper is GPL-3.0 licensed; retain its license and attribution in any derivative work.
+
+## Bench assembly — October 11, 2026
+
+The Cali-Eye bench is assembled and its Lenovo console is operational under Linux Mint XFCE. Motion and vision integration remain pending.
+
+![Cali-Eye bench structure and Lenovo console](docs/evidence/2026-10-11-bench-assembly/1000040173.jpg)
+
+[View all five original bench photographs and the evidence record](docs/evidence/2026-10-11-bench-assembly.md).
