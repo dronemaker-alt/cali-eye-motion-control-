@@ -1,6 +1,14 @@
 # Cali-Eye Motion Control
 
-Distributed smart motion-control architecture for the Cali-Eye automated inspection/vision gantry.
+Cali-Eye is the robotic inspection and bench-development project within **Æsir Autonomous Systems**, whose broader pantheon spans autonomous aircraft, ground vehicles, maritime systems, and robotic inspection.
+
+This repository develops Cali-Eye's distributed smart motion-control architecture. Cali-Eye is intended to support component inspection, diagnostics, and engineering work across that pantheon.
+
+## Scope and verification status
+
+The repository remains focused on Cali Motion Node hardware, firmware, host interfaces, architecture documentation, test plans, and bench evidence. Reuse of its motion-control approach across other Æsir platforms is a future possibility, not a verified capability.
+
+The assembled workstation and operational Lenovo/Linux Mint XFCE console are documented in the [October 11 bench evidence record](docs/evidence/2026-10-11-bench-assembly.md). Physical motion, encoder-based position verification, host-to-node control, automated scanning, and vision integration remain **unverified**; motion and vision integration are pending. The broader program scope does not establish autonomous operation or integration with aircraft, ground vehicles, or maritime systems.
 
 ## Reference architecture: PD-Stepper
 
@@ -21,9 +29,9 @@ PD-Stepper is being retained as a design/reference source for the Cali-Eye motio
 
 ## Cali-Eye direction
 
-Cali-Eye should treat each motion axis as a smart actuator/node. A Pi/host controller issues high-level position and scan commands while each node handles local motion, feedback, limits, and telemetry.
+The intended architecture treats each motion axis as a smart actuator/node. A Pi/host controller would issue high-level position and scan commands while each node would handle local motion, feedback, limits, and telemetry. These responsibilities are design targets; their physical implementation and integration remain unverified.
 
-Initial target axes:
+Initial target axes (planned; physical motion remains unverified):
 
 - X gantry
 - Y / sensor positioning
