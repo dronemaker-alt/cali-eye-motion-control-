@@ -10,6 +10,12 @@ The repository remains focused on Cali Motion Node hardware, firmware, host inte
 
 The assembled workstation and operational Lenovo/Linux Mint XFCE console are documented in the [October 11 bench evidence record](docs/evidence/2026-10-11-bench-assembly.md). Physical motion, encoder-based position verification, host-to-node control, automated scanning, and vision integration remain **unverified**; motion and vision integration are pending. The broader program scope does not establish autonomous operation or integration with aircraft, ground vehicles, or maritime systems.
 
+## Cali Core host continuity — November 1, 2026
+
+Cali Core v0.8, running on the lab OptiPlex, **passed a full-host-reboot test of saved-checkpoint persistence and operator-initiated `/resume` context recovery**. It also retrieved a research-journal entry. Automatic startup recovery, continuation of interrupted computation, and migration to another host remain unverified. This is a host-software milestone, **not** evidence that Cali-Eye motion or vision subsystems are integrated.
+
+[Read the dated engineering milestone and acceptance criteria](docs/evidence/2026-11-01-cali-core-v0.8-reboot-recovery.md).
+
 ## Reference architecture: PD-Stepper
 
 Upstream project: **joshr120/PD-Stepper**
